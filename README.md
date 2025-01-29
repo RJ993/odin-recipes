@@ -1,1 +1,2 @@
 # odin-recipes
+Jan. 29, 2025 - My objective for this project is to make a website detailing recipes using HTML. I am confident that I will learn and demonstrate how to setup HTML files for the browser, how to make headings, paragraphs, links, images, and lists via HTML.
