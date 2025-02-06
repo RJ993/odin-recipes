@@ -1,0 +1,12 @@
+.text {
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 32px;
+    color: #6a0f8b;
+}
+
+#grand-headline {
+    color: #245D00;
+    text-align: center;
+    font-size: 50px;
+    background-color: #deff2534;
+}
