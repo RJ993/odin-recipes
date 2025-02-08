@@ -1,24 +1,72 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: #6a0f8b;
     font-family:'Courier New', Courier, monospace;
     font-size: 18px;
 }
 
+p, ul, ol {
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
 .heading {
     font-family: "Brush Script MT", sans-serif;
     background-color: #deff2534;
+    margin-bottom: 16px;
 }
 
 .main-topic {
     color: #245D00;
     font-size: 50px;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px dotted rgb(57, 6, 57);
 }
 
 .sub-topic {
     font-size: 32px;
+    padding: 4px;
+    padding-left: 20px;
 }
 
 .main-page {
     font-size: 28px;
     font-weight: 900;
+}
+
+.final-product {
+    margin: auto 575px 12px;
+    height: 480px;
+    width: 370px;
+    padding: 18px;
+    border: 12px inset rgb(57, 6, 57);
+}
+
+.ingredients-steps {
+    display: block;
+    margin-left: 18px;
+    height: 210px;
+    width: 155px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#quicksteak-boxes {
+    height: 155px;
+    width: 210px;
 }

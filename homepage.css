@@ -1,7 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .text {
     font-family: "Brush Script MT", sans-serif;
     font-size: 32px;
     color: #6a0f8b;
+    margin-left: 32px;
 }
 
 #grand-headline {
@@ -9,4 +21,19 @@
     text-align: center;
     font-size: 50px;
     background-color: #deff2534;
+    margin: auto;
+    padding: 8px;
+    border-bottom: 5px dotted rgb(57, 6, 57);
+}
+
+.recipe {
+    margin: 18px;
+}
+
+img {
+    height: 240px;
+    width: 185px;
+    display: block;
+    padding: 9px;
+    border: 6px inset rgb(57, 6, 57);
 }
